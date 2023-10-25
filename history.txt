@@ -1,0 +1,59 @@
+    1  mkdir examen372
+    2  cd examen372
+    3  git clone https://gist.github.com/CheemsDoggie/c514e789859c9107c63ab99efe27735d.js
+    4  git clone https://gist.github.com/c514e789859c9107c63ab99efe27735d.git 
+    5  touch create.sh
+    6  #! /bin/bash
+    7  git init
+    8  git init
+    9  git add README.md
+   10  echo "# examen" >> README.md
+   11  git init
+   12* git add .
+   13  git commit -m "Initial commit, script added"
+   14  git branch -M main
+   15  git remote add origin https://github.com/NancyPA/examen.git
+   16  git push -u origin main
+   17  echo "#! /bin/bash" > create.sh; code create.sh
+   18  ./create.sh
+   19  cmd //c tree //F ./
+   20  cd webapp
+   21  ./create.sh
+   22  echo "#! /bin/bash" > create.sh; code create.sh
+   23  ./create.sh
+   24  cmd //c tree //F ./
+   25  cd ..
+   26  ./create.sh
+   27  cmd //c tree //F ./
+   28  ./create.sh
+   29  cmd //c tree //F ./
+   30  ./create.sh
+   31  cmd //c tree //F ./
+   32  ./create.sh
+   33  cmd //c tree //F ./
+   34  mkdir webapp
+   35  cd webapp
+   36  ./create.sh
+   37  echo "#! /bin/bash" > create.sh; code create.sh
+   38  ./create.sh
+   39  cmd //c tree //F ./
+   40  cmd //c tree //F ./
+   41  git add *
+   42  git commit -m "Second commit, structure created"
+   43  ./create.sh
+   44  ./create.sh
+   45  ./create.sh
+   46  cmd //c tree //F ./
+   47  ./create.sh
+   48  cmd //c tree //F ./
+   49  cd examen372/examen372.md
+   50  cd ..
+   51  cd examen372/examen372.md
+   52  cd c514e789859c9107c63ab99efe27735d
+   53  cd examen372/examen372.md
+   54  cd ..
+   55  examen372.md mv README.md
+   56  mv examen372.md README.md
+   57  git add *
+   58  git commit -m "Third commit, add README.md and final script updated"
+   59  history > history.txt
